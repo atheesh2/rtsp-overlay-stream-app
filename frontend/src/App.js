@@ -247,15 +247,21 @@ const OverlayManager = ({ overlays, setOverlays, selectedOverlay, setSelectedOve
                     onChange={handleChange}
                     placeholder="Height"
                 />
-                {formData.type === 'text' && (
-    <input
+    
+              {formData.type === 'text' && (
+    <div>
+        <label htmlFor="color">Text Color:</label>
+        <input 
+        
         type="color"
         name="color"
         value={formData.color}
         onChange={handleChange}
         title="Choose text color"
-        style={{ marginTop: '5px' }}
+        style={{ marginTop: '5px', marginLeft:'10px' ,width: '50px', height: '30px'}}
     />
+    </div>           
+    
 )}
 
                 <button type="submit">{selectedOverlay ? 'Update Overlay' : 'Create Overlay'}</button>
