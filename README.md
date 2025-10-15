@@ -112,7 +112,7 @@ http://localhost:5000/api
 ---
 
 ## 📦 Repository Information
-**Repository Name:** `livestream-overlay-app`  
+**Repository Name:** `rtsp-overlay-stream-app`  
 **Description:** Web application to stream RTSP video and manage overlays dynamically using Flask, MongoDB, and React.
 
 ---
